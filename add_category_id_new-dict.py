@@ -1,8 +1,8 @@
 from json import load, dump
 
-id = int(input("Enter the number of category_id you want to label: "))
+id = int(input("Change the name of file 'error' you want to modify.\n Enter the number of category_id you want to label: "))
 
-with open('wrong.json',) as f:
+with open('error.json',) as f:
     data = load(f)
 
 annotation_data = data["annotations"]
